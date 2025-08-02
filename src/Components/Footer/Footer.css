@@ -84,6 +84,12 @@
     align-items: center;
     text-align: center;
   }
+  .footer-bottom-right {
+    display: block;
+    margin-bottom: 40px; 
+    gap: 0; 
+    text-align: center; 
+  }
   .footer-email-input {
     background: #32323B;
     padding: 16px;
