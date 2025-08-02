@@ -84,6 +84,9 @@
     align-items: center;
     text-align: center;
   }
+  .footer-email-input {
+    flex-direction: column;
+  }
 
   .footer-bottom {
     display: flex;
