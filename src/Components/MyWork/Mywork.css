@@ -85,3 +85,47 @@
         cursor: pointer;
     }
 }
+@media (max-width: 480px) {
+  .mywork {
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 24px;
+    align-items: flex-start;
+  }
+
+  .mywork-title h1 {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .mywork-title img {
+    width: 100px;
+    margin-right: -10px;
+  }
+
+  .mywork-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .mywork-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .mywork-showmore {
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 40px auto;
+    cursor: pointer;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+  }
+}

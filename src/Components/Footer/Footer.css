@@ -73,3 +73,34 @@
     margin-bottom: 50px;
   }
 }
+@media (max-width: 480px) {
+  .footer {
+    margin: 40px 24px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 100px;
+  }
+
+  .footer-top-left p {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 300px;
+  }
+}
