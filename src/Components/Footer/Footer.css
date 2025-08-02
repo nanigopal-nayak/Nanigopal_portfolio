@@ -85,7 +85,22 @@
     text-align: center;
   }
   .footer-email-input {
-    flex-direction: column;
+    background: #32323B;
+    padding: 16px;
+    border-radius: 20px;
+    width: fit-content;
+  }
+
+  .footer-email-input input {
+    width: 220px;
+    padding: 10px 14px;
+    font-size: 15px;
+  }
+
+  .footer-subscribe {
+    padding: 12px 24px;
+    font-size: 15px;
+    border-radius: 30px;
   }
 
   .footer-bottom {
