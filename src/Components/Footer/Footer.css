@@ -87,7 +87,7 @@
   .footer-top-right {
     display: block;
     margin-bottom: 40px; 
-    gap: 0; 
+    padding: 10px 14px; 
     text-align: center; 
   }
   .footer-email-input {
